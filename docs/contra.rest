@@ -1,0 +1,17 @@
+##########################
+POST http://127.0.0.1:3000/auth/forgot-password
+Content-Type: application/json
+
+{
+    "email":"alexmy339@gmail.com"
+    
+}
+
+############
+POST http://localhost:3000/auth/reset-password
+Content-Type: application/json
+
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZXhwYWNobzgyQGdtYWlsLmNvbSIsImlhdCI6MTczMzg2NjQxOSwiZXhwIjoxNzMzODcwMDE5fQ.5_r_ilz7-wHpymqBgs0PAHYp18ut9eDtDZB97Zi8WN8",
+  "newPassword": "alexander12"
+}

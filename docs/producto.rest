@@ -1,0 +1,17 @@
+################
+POST http://127.0.0.1:3000/producto
+Content-Type: application/json
+
+{
+    "nombre":"Computadora Gamer",
+    "precio": 1000.00,
+    "stock": 1,
+    "image": "ni una",
+    "descripcion": "Prueba",
+    "estado": true, 
+    "categoriaId": 2
+}
+
+
+######
+GET  http://127.0.0.1:3000/producto/back?page=1
