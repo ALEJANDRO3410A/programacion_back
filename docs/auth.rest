@@ -2,12 +2,11 @@ POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-    "name":"Rama",
-    "email": "ramon@gmail.com",
-    "password": "1234567",
-    "telefono": "0981668402"
+    "name":"Ale",
+    "email": "maa.ortiz@yavirac.edu.ec",
+    "password": "123456789",
+    "telefono": "0980491108"
 }
-
 
 ################
 POST http://127.0.0.1:3000/categoria
